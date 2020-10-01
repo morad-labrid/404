@@ -1,70 +1,81 @@
-*
-{
+* {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #88c1d0;
+    margin: 0;
+    padding: 0;
 }
 
-.float
-{
+header {
+    flex-wrap: wrap;
     display: flex;
-    width: 45%;
-    height: auto;
+    justify-content: space-between;
+    height: 52px;
+    background-color: #f3f3f3;
 }
 
-img
-{
-    width: 300px;
-    height: auto;
-    margin-top: 100px;
+img {
+    width: 230px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
-h1
-{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right: 2px solid #d4d1d1;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+h1 {
     margin: 0;
     font-size: 300px;
-    color: #ffca4b;
-    text-shadow: -8px 0 #275fa0, 0 8px #275fa0, 8px 0 #275fa0, 0 -8px #275fa0; 
+    color: rgb(253, 198, 97);
+    text-shadow: -8px 0 #275fa0, 0 8px #275fa0, 8px 0 #275fa0, 0 -8px #275fa0;
 }
 
-p
-{
+.div404 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.zero {
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.divtext {
     color: #275fa0;
-    font-size: 25px;
     font-weight: bold;
-}
-
-button
-{
     font-size: 25px;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 25px;
-    background-color: #ffca4b; /*orange*/
-    cursor: pointer;
-    border: 4px solid #275fa0;
 }
 
-button:hover
-{
-    letter-spacing:5px;
+p {
+    text-align: center;
 }
 
-a
-{
-    text-decoration: none;
-    background-color: #ffca4b;
+footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
